@@ -1,0 +1,9 @@
+C:\Users\Administrator\Dropbox\JavascriptTest\JavascriptTest\bin\JavascriptTest.dll.config
+C:\Users\Administrator\Dropbox\JavascriptTest\JavascriptTest\bin\JavascriptTest.dll
+C:\Users\Administrator\Dropbox\JavascriptTest\JavascriptTest\bin\JavascriptTest.pdb
+C:\Users\Administrator\Dropbox\JavascriptTest\JavascriptTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrator\Dropbox\JavascriptTest\JavascriptTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrator\Dropbox\JavascriptTest\JavascriptTest\obj\Debug\JavascriptTest.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Dropbox\JavascriptTest\JavascriptTest\obj\Debug\JavascriptTest.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Dropbox\JavascriptTest\JavascriptTest\obj\Debug\JavascriptTest.dll
+C:\Users\Administrator\Dropbox\JavascriptTest\JavascriptTest\obj\Debug\JavascriptTest.pdb

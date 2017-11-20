@@ -1,0 +1,29 @@
+﻿body {
+
+   
+}
+header {
+    
+}
+#bild{
+    margin-right:10px;
+    max-width:500px;
+    max-height:500px;
+}
+.wrapper {
+    margin: 10px auto;
+    width:700px;
+    background-color: moccasin;
+    display:flex;
+    padding:15px;
+    flex-direction:row;
+    justify-content:center;
+    
+}
+
+.text {
+    width: 35%;
+    flex-direction:column;
+    justify-content:center;
+}
+
