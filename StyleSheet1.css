@@ -12,7 +12,6 @@
   justify-content: center;
 }
 .text {
-  color: #1111ff;
   width: 35%;
   flex-direction: column;
   justify-content: center;
@@ -24,5 +23,5 @@
   font-size: 15px;
 }
 .stars .filled {
-  color: black;
+  color: #1111ff;
 }

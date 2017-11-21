@@ -1,0 +1,21 @@
+{
+  "name": "javascripttest",
+  "version": "1.0.0",
+  "description": "För att lära mig något",
+  "main": "Code.js",
+  "scripts": {
+    "styles": "lessc stylesheet1.less stylesheet1.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://guthub.com/skrammel/javascripttest.git"
+  },
+  "keywords": [
+    "Test"
+  ],
+  "author": "Kim R",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^2.7.3"
+  }
+}
