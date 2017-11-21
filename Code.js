@@ -9,21 +9,23 @@
     }
 }
 
+renderMovie(movieData);
 function changeStarRating(rating) {
     for (let i = 1; i <= 5; i++) {
-        let star = document.getElementById("star" + i);
+        let star = $("#star" + i);
         if (i <= rating) {
-            star.classList.add("filled");
+            star.addClass("filled");
         } else {
-            star.classList.remove("filled");
+            star.removeClass("filled");
         }
     }
 }
-
-for (let i = 1; i <= 5; i++) {
-    let star = document.getElementById("star" + i);
-    star.addEventListener("click", function () {
-        changeStarRating(i);
+    $(".stars").on("click", "span", function (e) {
+        let opt = $(e.target).attr("id");
+        changeStarRating(+opt[4]);
     });
-}
-renderMovie(movieData);
+
+
+
+
+

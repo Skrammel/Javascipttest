@@ -97,6 +97,7 @@
     <Content Include="Code.js" />
     <Content Include="Data.js" />
     <Content Include="Index.html" />
+    <None Include="StyleSheet1.less" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Web.config" />
   </ItemGroup>
