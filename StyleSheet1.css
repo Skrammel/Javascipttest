@@ -5,10 +5,9 @@
 header {
     
 }
-#bild{
-    margin-right:10px;
-    max-width:500px;
-    max-height:500px;
+#movieimg {
+    margin-right: 10px;
+    max-width: 500px;
 }
 .wrapper {
     margin: 10px auto;
