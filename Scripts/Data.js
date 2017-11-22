@@ -1,9 +1,9 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+exports.__esModule = true;
 exports.movieData = {
     title: "Inception",
     img: "http://aforanything.com/wp-content/uploads/2014/09/The_truth_of_the_Inception_ending.png",
     text: "A very meta novie about dreams withing dreams. And then there was a whole bunch of shotting, not really sure how that fit into the picture.",
     list: ["Leonardo DiCaprio", "Ellen Page", "Ken Watanbe"]
 };
-//# sourceMappingURL=Data.js.map
+//# sourceMappingURL=data.js.map

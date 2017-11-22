@@ -4,7 +4,7 @@
         filename: "distribution/bundle.js"
     },
     resolve: {
-        extensions: ['.ts']
+        extensions: ['.ts','.js']
     },
      module: {
         rules: [
