@@ -1,0 +1,27 @@
+#movieimg {
+  margin-right: 10px;
+  max-width: 500px;
+}
+.wrapper {
+  margin: 10px auto;
+  width: 700px;
+  background-color: moccasin;
+  display: flex;
+  padding: 15px;
+  flex-direction: row;
+  justify-content: center;
+}
+.text {
+  width: 35%;
+  flex-direction: column;
+  justify-content: center;
+}
+.stars span {
+  color: #b4b4b4;
+  user-select: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+.stars .filled {
+  color: #1111ff;
+}

@@ -4,7 +4,10 @@
   "description": "För att lära mig något",
   "main": "Code.js",
   "scripts": {
-    "styles": "lessc stylesheet1.less stylesheet1.css"
+    "styles": "lessc stylesheet1.less distribution/stylesheet1.css",
+	"bundle": "webpack",
+	"copyindex": "cp Index.html distribution/Index.html",
+	"build": "npm run bundle && npm run styles && npm run copyindex"
   },
   "repository": {
     "type": "git",
@@ -16,6 +19,10 @@
   "author": "Kim R",
   "license": "ISC",
   "devDependencies": {
-    "less": "^2.7.3"
+    "less": "^2.7.3",
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
   }
 }

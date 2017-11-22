@@ -83,6 +83,7 @@
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="bundle.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
@@ -94,10 +95,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Code.js" />
-    <Content Include="Data.js" />
+    <Content Include="Scripts\Code.js" />
+    <Content Include="Scripts\Data.js" />
     <Content Include="Index.html" />
     <None Include="StyleSheet1.less" />
+    <Content Include="webpack.config.js" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Web.config" />
   </ItemGroup>
