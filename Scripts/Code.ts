@@ -1,4 +1,4 @@
-﻿import { movieData } from "./data";
+﻿import { movieData } from "./Scripts/Data";
 import * as $ from "jquery";
 
 function renderMovie(movie) {
