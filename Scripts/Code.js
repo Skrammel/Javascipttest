@@ -1,17 +1,17 @@
 "use strict";
 exports.__esModule = true;
-var data_1 = require("./data");
+var Data_1 = require("./Data");
 var $ = require("jquery");
-function renderMovie(movie) {
-    document.getElementById("movietitle").innerText = movie.title;
-    document.getElementById("movietext").innerText = movie.text;
-    document.getElementById("movieimg").setAttribute("src", movie.img);
-    for (var i = 0; i < movie.list.length; i++) {
-        var newRow = "<li>" + movie.list[i] + "</li>";
+function renderMovie(Data) {
+    document.getElementById("movietitle").innerText = Data_1.movieData.title;
+    document.getElementById("movietext").innerText = Data_1.movieData.text;
+    document.getElementById("movieimg").setAttribute("src", Data_1.movieData.img);
+    for (var i = 0; i < Data_1.movieData.list.length; i++) {
+        var newRow = "<li>" + Data_1.movieData.list[i] + "</li>";
         document.getElementById("movielist").innerHTML += newRow;
     }
 }
-renderMovie(data_1.movieData);
+renderMovie(Data_1.movieData);
 function changeStarRating(rating) {
     for (var i = 1; i <= 5; i++) {
         var star = $("#star" + i);

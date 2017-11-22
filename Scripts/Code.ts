@@ -1,16 +1,14 @@
-﻿//let movieData = require("./Data.js");
-//let $ = require("jquery");
-
+﻿import { Review } from "./interfaces";
 import {movieData} from "./Data";
 import * as $ from "jquery";
 
-function renderMovie(movie) {
-    document.getElementById("movietitle").innerText = movie.title;
-    document.getElementById("movietext").innerText = movie.text;
-    document.getElementById("movieimg").setAttribute("src", movie.img);
-    for (let i = 0; i < movie.list.length; i++)
+function renderMovie(Data: Review) {
+    document.getElementById("movietitle").innerText = movieData.title;
+    document.getElementById("movietext").innerText = movieData.text;
+    document.getElementById("movieimg").setAttribute("src", movieData.img);
+    for (let i = 0; i < movieData.list.length; i++)
     {
-        let newRow = "<li>" + movie.list[i] + "</li>";
+        let newRow = "<li>" + movieData.list[i] + "</li>";
         document.getElementById("movielist").innerHTML += newRow;
     }
 }
@@ -26,7 +24,7 @@ function changeStarRating(rating) {
         }
     }
 }
-    $(".stars").on("click", "span", function (e) {
+    $(".stars").on("click", "span", (e) => {
         let opt = $(e.target).attr("id");
         changeStarRating(+opt[4]);
     });

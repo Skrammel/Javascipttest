@@ -105,6 +105,7 @@
     <Content Include="webpack.config.js" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Web.config" />
+    <TypeScriptCompile Include="Scripts\interfaces.ts" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
