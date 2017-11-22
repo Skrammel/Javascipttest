@@ -4,7 +4,7 @@
   "description": "För att lära mig något",
   "main": "Code.js",
   "scripts": {
-    "styles": "lessc stylesheet1.less distribution/stylesheet1.css",
+    "styles": "lessc StyleSheet1.less distribution/StyleSheet1.css",
 	"bundle": "webpack",
 	"copyindex": "cp Index.html distribution/Index.html",
 	"build": "npm run bundle && npm run styles && npm run copyindex"
