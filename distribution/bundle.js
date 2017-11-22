@@ -67,52 +67,51 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-﻿let movieData = __webpack_require__(1);
-let $ = __webpack_require__(2);
+"use strict";
+
+exports.__esModule = true;
+var data_1 = __webpack_require__(1);
+var $ = __webpack_require__(2);
 function renderMovie(movie) {
     document.getElementById("movietitle").innerText = movie.title;
     document.getElementById("movietext").innerText = movie.text;
     document.getElementById("movieimg").setAttribute("src", movie.img);
-    for (let i = 0; i < movie.list.length; i++)
-    {
-        let newRow = "<li>" + movie.list[i] + "</li>";
+    for (var i = 0; i < movie.list.length; i++) {
+        var newRow = "<li>" + movie.list[i] + "</li>";
         document.getElementById("movielist").innerHTML += newRow;
     }
 }
-
-renderMovie(movieData);
+renderMovie(data_1.movieData);
 function changeStarRating(rating) {
-    for (let i = 1; i <= 5; i++) {
-        let star = $("#star" + i);
+    for (var i = 1; i <= 5; i++) {
+        var star = $("#star" + i);
         if (i <= rating) {
             star.addClass("filled");
-        } else {
+        }
+        else {
             star.removeClass("filled");
         }
     }
 }
-    $(".stars").on("click", "span", function (e) {
-        let opt = $(e.target).attr("id");
-        changeStarRating(+opt[4]);
-    });
-
-
-
-
-
+$(".stars").on("click", "span", function (e) {
+    var opt = $(e.target).attr("id");
+    changeStarRating(+opt[4]);
+});
 
 
 /***/ }),
 /* 1 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-﻿module.exports = {
+"use strict";
+
+exports.__esModule = true;
+exports.movieData = {
     title: "Inception",
     img: "http://aforanything.com/wp-content/uploads/2014/09/The_truth_of_the_Inception_ending.png",
     text: "A very meta novie about dreams withing dreams. And then there was a whole bunch of shotting, not really sure how that fit into the picture.",
-    list: ["Leonardo DiCaprio","Ellen Page","Ken Watanbe"]
+    list: ["Leonardo DiCaprio", "Ellen Page", "Ken Watanbe"]
 };
-
 
 
 /***/ }),
